@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/my-first-app/static/css/main.e2cc93ac.css",
+    "main.js": "/my-first-app/static/js/main.24a15112.js",
+    "static/js/488.05dac5bd.chunk.js": "/my-first-app/static/js/488.05dac5bd.chunk.js",
+    "static/media/caity-movie.mp4": "/my-first-app/static/media/caity-movie.eacea66126a6100fd971.mp4",
+    "index.html": "/my-first-app/index.html",
+    "main.e2cc93ac.css.map": "/my-first-app/static/css/main.e2cc93ac.css.map",
+    "main.24a15112.js.map": "/my-first-app/static/js/main.24a15112.js.map",
+    "488.05dac5bd.chunk.js.map": "/my-first-app/static/js/488.05dac5bd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2cc93ac.css",
+    "static/js/main.24a15112.js"
+  ]
+}

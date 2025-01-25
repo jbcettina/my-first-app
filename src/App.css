@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header button{ 
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.App-header button:hover {
+  background-color: #0056b3;
+}
+
+.App-link {
+  color: #ffffff;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.my-button{
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+/* The video of Caity */
+.App-header .caityVideo{
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Reserve space for the message area */
+.message-container {
+  /* Set a min-height to accommodate one line or more of text.
+     This ensures the page layout doesn't shrink when there's no message. */
+  min-height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Add margin-top if you'd like spacing above/below. */
+  margin-top: 20px;
+}
+
+/* The message box styling */
+.message-box {
+  margin-top: 20px;
+  background-color: #f2f2f2;
+  color: #383838;
+  display: inline-block;
+  padding: 20px 40px;
+  border-radius: 4px;
+
+  /* Start fully opaque */
+  opacity: 1;
+  transition: opacity 1s ease;
+}
+
+/* If there's no message, we keep it invisible but keep space in .message-container */
+.invisible {
+  opacity: 0;
+  /* You could also use `visibility: hidden;`
+     so it doesn't show up at all, but space remains. */
+}
+
+/* Apply a fade-out effect */
+.message-box.fade-out {
+  opacity: 0; /* Over 1s, goes to 0 */
+}

@@ -2,7 +2,6 @@
   "name": "my-first-react-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jbcettina.github.io/my-first-app",
   "dependencies": {
     "cra-template": "1.2.0",
     "react": "^19.0.0",
@@ -37,6 +36,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "gh-pages": "^6.3.0"
   }
 }

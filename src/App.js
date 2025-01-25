@@ -15,6 +15,7 @@ function App() {
     "Caity is a Leader",
     "Caity is Smart",
     "Caity is a BOSS",
+    "Caity is a BOSS",
     "Caity is Sexy",
     "Caity is Hot",
     "Caity is my Future Wife"
